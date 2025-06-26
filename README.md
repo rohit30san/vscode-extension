@@ -1,28 +1,45 @@
-🧠 AI-Powered VS Code Chat Extension
-This is a Visual Studio Code extension that integrates a React-based AI chat assistant directly into the editor. It enhances your coding workflow with contextual awareness, code generation, and file sharing via smart mentions.
+# 🧠 AI Chat VS Code Extension
 
-✨ Features
-🗨️ React-based Chat UI inside VS Code WebView
+A Visual Studio Code extension that brings an AI-powered chat assistant directly into your IDE. Built with a React-based WebView, this assistant supports workspace-aware contextual replies, file referencing via `@filename`, and code generation powered by OpenRouter's Mistral 7B API.
 
-🧠 AI Code Generation powered by OpenRouter using Mistral 7B
+---
 
-📁 File & Image Context via @filename
-Seamlessly reference any file in your workspace using @yourfile.js syntax — the content is embedded in the prompt.
+## ✨ Features
 
-🧾 Markdown Support with Syntax Highlighting
+- ⚛️ **React Chat UI** — Clean and minimal WebView-based chat interface.
+- 🧠 **AI-Powered Assistant** — Uses OpenRouter (Mistral 7B) to generate and assist with code.
+- 📂 **File Context Awareness** — Reference files from your current workspace with `@filename`.
+- 💬 **Markdown Support** — Renders markdown and syntax-highlighted code blocks.
 
-🎯 Minimal, fast, and easy-to-use interface
+---
 
-⚙️ Written in TypeScript, Node.js, and React
+## 📸 Demo
 
-🛠 Tech Stack
-TypeScript
+> 🔗 _Include a link to your demo video or screenshot here._
 
-React (WebView UI)
+---
 
-VS Code Extension API
+## 🧩 Tech Stack
 
-OpenRouter API (Mistral 7B)
+- **VS Code Extension API**
+- **React + TypeScript** (WebView UI)
+- **Node.js** (Extension backend)
+- **OpenRouter API** (Mistral 7B Instruct model)
+- **Webpack** for bundling
 
-Webpack + ts-loader
+---
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js & npm
+- VS Code
+- `vsce` or `@vscode/test` for packaging/testing
+
+### Setup
+
+```bash
+git clone https://github.com/your-username/ai-chat-vscode
+cd ai-chat-vscode
+npm install
