@@ -23,10 +23,3 @@ A Visual Studio Code extension that brings an AI-powered chat assistant directly
 - **Webpack** for bundling
 
 
-
-### Setup
-
-```bash
-git clone https://github.com/your-username/ai-chat-vscode
-cd ai-chat-vscode
-npm install
