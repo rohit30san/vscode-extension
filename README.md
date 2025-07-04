@@ -22,15 +22,7 @@ A Visual Studio Code extension that brings an AI-powered chat assistant directly
 - **OpenRouter API** (Mistral 7B Instruct model)
 - **Webpack** for bundling
 
----
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js & npm
-- VS Code
-- `vsce` or `@vscode/test` for packaging/testing
 
 ### Setup
 
