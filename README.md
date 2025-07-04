@@ -13,11 +13,6 @@ A Visual Studio Code extension that brings an AI-powered chat assistant directly
 
 ---
 
-## 📸 Demo
-
-> 🔗 _Include a link to your demo video or screenshot here._
-
----
 
 ## 🧩 Tech Stack
 
